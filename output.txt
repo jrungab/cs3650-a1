@@ -1,0 +1,22 @@
+josh@DESKTOP-OKR71T0:~/cs3650/a1$ whoami
+josh
+josh@DESKTOP-OKR71T0:~/cs3650/a1$ echo "testing echo"
+testing echo
+josh@DESKTOP-OKR71T0:~/cs3650/a1$ touch scratch.txt
+josh@DESKTOP-OKR71T0:~/cs3650/a1$ cp hello.c hello_backup.c
+josh@DESKTOP-OKR71T0:~/cs3650/a1$ ls -la
+total 44
+drwxr-xr-x 3 josh josh  4096 Sep 23 19:25 .
+drwxr-xr-x 3 josh josh  4096 Sep 23 19:14 ..
+drwxr-xr-x 2 josh josh  4096 Sep 23 19:11 ExternalResources
+-rwxr-xr-x 1 josh josh   129 Sep 23 19:11 README.md
+-rwxr-xr-x 1 josh josh 15952 Sep 23 19:23 hello
+-rwxr-xr-x 1 josh josh   163 Sep 23 19:23 hello.c
+-rwxr-xr-x 1 josh josh   163 Sep 23 19:25 hello_backup.c
+-rwxr-xr-x 1 josh josh    60 Sep 23 19:11 output.txt
+-rw-r--r-- 1 josh josh     0 Sep 23 19:25 scratch.txt
+josh@DESKTOP-OKR71T0:~/cs3650/a1$ grep printf hello.c
+                printf("Josh\n");
+                printf("ungab.j@northeastern.edu\n");
+josh@DESKTOP-OKR71T0:~/cs3650/a1$ sort output.txt
+josh@DESKTOP-OKR71T0:~/cs3650/a1$ man gcc
